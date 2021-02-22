@@ -3,7 +3,6 @@ title: "GATSBY: OUR BLOG"
 date: "2021-01-27T07:26:03.284Z"
 writeAuthor: semin
 description: "project with SpringBoot"
-featuredImage: ../assets/avatars/semin.png
 categories: [paragraph, feature photo]
 comments: true
 image: ../assets/avatars/semin.png
