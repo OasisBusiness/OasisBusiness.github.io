@@ -60,6 +60,7 @@ const BlogIndex = ({
                 style={{
                   marginBottom: rhythm(1 / 4),
                   fontSize: '2rem',
+                  textShadow: '2px 2px 2px gray',
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
