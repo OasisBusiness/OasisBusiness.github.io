@@ -1,7 +1,8 @@
 ---
-title: "Machine Learning, AI"
+title: "Commercial data analysis"
 date: "2021-01-12T07:26:03.284Z"
-description: "Our own AI Model, made with machine learning"
+writeAuthor: semin
+description: "Our amazing data analysis service"
 categories: [code]
 comments: true
 ---
