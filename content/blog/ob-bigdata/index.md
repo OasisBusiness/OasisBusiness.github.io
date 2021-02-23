@@ -5,6 +5,7 @@ writeAuthor: semin
 description: "Our own AI Model, made with machine learning"
 categories: [code]
 comments: true
+featuredImage: ../assets/user.png
 ---
 
 #딥러닝으로 재해석하는 빅데이터
@@ -40,7 +41,7 @@ comments: true
 가능한한 많은 데이터를 확보하는 것이 DNN 모델 성능 향상에 큰 도움이 되기 때문에 이러한 결측을 처리하는 모델 혹은 알고리즘 확보가 우선이었습니다.
 대표적인 결측 처리모델인 MICE, MissForest등을 테스트 해보았고 현재는 GAN (generative모델) 을 이용하여 높은 성능의 결측 처리를 하고있습니다.
 
-
+![Missing Value](MissingValue.PNG)
 
 그에 관한 내용과 실제 우리가 결측 채우는 모델을 사용한 결과의 성능을 보여줄수 있는 이미지를 캡쳐한 자료입니다
 

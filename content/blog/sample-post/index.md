@@ -5,11 +5,7 @@ writeAuthor: user
 description: "BUSINESS MATCHING PLATFORM, 오아시스비즈니스"
 categories: [hello world]
 comments: true
-image:
-  feature: aboutOasis.png
-  credit: thomas shellberg
-  creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
-
+featuredImage: ../assets/user.png
 ---
 
 ## Our Services

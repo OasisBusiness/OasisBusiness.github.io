@@ -5,6 +5,7 @@ writeAuthor: semin
 description: "Our amazing data analysis service"
 categories: [code]
 comments: true
+featuredImage: ../assets/user.png
 ---
 
 오아시스 비즈니스만의 데이터로 분석해낸 상권 정보를 확인하세요
