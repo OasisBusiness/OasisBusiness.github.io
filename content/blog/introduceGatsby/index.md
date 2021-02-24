@@ -5,7 +5,6 @@ writeAuthor: semin
 description: "project with SpringBoot"
 categories: [paragraph, feature photo]
 comments: true
-image: ../assets/semin.png
 ---
 안녕하세요!  
 오늘은 오아시스 블로그를 개설하면서 이용한 gatsby에 대해 알아보도록 하겠습니다.

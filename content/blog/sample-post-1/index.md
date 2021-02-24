@@ -5,7 +5,6 @@ writeAuthor: semin
 description: "convert data to a graphical interface"
 categories: [hello world]
 comments: true
-featuredImage: ../assets/user.png
 ---
 
 ## WITH REACT

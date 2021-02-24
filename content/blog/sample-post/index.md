@@ -5,7 +5,6 @@ writeAuthor: user
 description: "BUSINESS MATCHING PLATFORM, 오아시스비즈니스"
 categories: [hello world]
 comments: true
-featuredImage: ../assets/user.png
 ---
 
 ## Our Services

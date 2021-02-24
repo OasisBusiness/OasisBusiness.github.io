@@ -6,7 +6,6 @@ profile: "/semin.png"
 description: "project with SpringBoot"
 categories: [paragraph, feature photo]
 comments: true
-featuredImage: ../assets/user.png
 ---
 
 ###Gradle

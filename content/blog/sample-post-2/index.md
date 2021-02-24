@@ -5,7 +5,6 @@ writeAuthor: semin
 description: "Just about everything you'll need to run a start-up business"
 categories: [hello world]
 comments: true
-featuredImage: ../assets/user.png
 ---
 
 ## SMART PLATFORM

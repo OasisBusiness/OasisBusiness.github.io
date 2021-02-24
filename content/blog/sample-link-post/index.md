@@ -6,7 +6,6 @@ description: "Introduce attractive oasis-members"
 categories: [link post]
 link: http://renyuanz.github.io
 share: true
-featuredImage: ../assets/user.png
 ---
 
 ##**오아시스비즈니스 대표** 문 욱,  

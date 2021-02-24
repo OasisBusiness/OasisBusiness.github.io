@@ -5,7 +5,6 @@ writeAuthor: Taehyun Park
 description: "Our own AI Model, made with machine learning"
 categories: [code]
 comments: true
-featuredImage: ../assets/user.png
 ---
 
 #딥러닝으로 재해석하는 빅데이터
