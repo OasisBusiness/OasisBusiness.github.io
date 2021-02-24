@@ -5,7 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
-import ProfileImage from "../components/profileImage"
+//import ProfileImage from "../components/profileImage"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -40,7 +40,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                     alignItems: `center`,
                   }}
                 >
-                <small style={{ textAlign: `center`, }}>{post.frontmatter.date} ||&nbsp;</small> <ProfileImage /> <small>&nbsp;{post.frontmatter.writeAuthor}</small>
+                <small style={{ textAlign: `center`, }}>{post.frontmatter.date} ||&nbsp;</small> <small>&nbsp;{post.frontmatter.writeAuthor}</small>
             </div>
           </p>
         </header>

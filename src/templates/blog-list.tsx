@@ -4,7 +4,7 @@ import { PageProps, Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import ProfileImage from "../components/profileImage"
+//import ProfileImage from "../components/profileImage"
 
 type PageContext = {
   currentPage: number
@@ -72,7 +72,7 @@ const BlogIndex = ({
                         alignItems: `center`,
                       }}
                     >
-              <small>{node.frontmatter.date} || </small><ProfileImage /> <small>{node.frontmatter.writeAuthor}</small>
+              <small>{node.frontmatter.date} || </small> <small>{node.frontmatter.writeAuthor}</small>
             </div>
             </header>
             <section>

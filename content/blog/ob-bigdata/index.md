@@ -38,7 +38,7 @@ featuredImage: ../assets/user.png
 업무과정중에 어려웠던 부분은 결측 처리부분이었습니다
 
 100만 단위의 데이터를 다루다보면 결측데이터가 있기 마련인데, 수백개의 항목중 한두개의 결측이 있다고 해서 데이터를 지우기엔 아깝기도 하고
-가능한한 많은 데이터를 확보하는 것이 DNN 모델 성능 향상에 큰 도움이 되기 때문에 이러한 결측을 처리하는 모델 혹은 알고리즘 확보가 우선이었습니다.
+가능한 많은 데이터를 확보하는 것이 DNN 모델 성능 향상에 큰 도움이 되기 때문에 이러한 결측을 처리하는 모델 혹은 알고리즘 확보가 우선이었습니다.
 대표적인 결측 처리모델인 MICE, MissForest등을 테스트 해보았고 현재는 GAN (generative모델) 을 이용하여 높은 성능의 결측 처리를 하고있습니다.
 
 ![Missing Value](MissingValue.PNG)
@@ -48,6 +48,8 @@ featuredImage: ../assets/user.png
 결측 처리 모델의 구성도 사진입니다.
 
 ![GAIN](GAIN.PNG)
+
+_출처: GAIN: Missing Data Imputation using Generative Adversarial Nets_
 
 
 ##학습
