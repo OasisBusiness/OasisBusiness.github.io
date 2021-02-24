@@ -1,6 +1,6 @@
 ---
 title: ABOUT
-date: "2021-01-16T07:26:03.284Z"
+date: "2021-01-14T07:26:03.284Z"
 writeAuthor: user
 description: "BUSINESS MATCHING PLATFORM, 오아시스비즈니스"
 categories: [hello world]
