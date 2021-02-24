@@ -40,7 +40,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                     alignItems: `center`,
                   }}
                 >
-                <small style={{ textAlign: `center`, }}>{post.frontmatter.date} ||&nbsp;</small> <small>&nbsp;{post.frontmatter.writeAuthor}</small>
+                {post.frontmatter.date} ||&nbsp;{post.frontmatter.writeAuthor}
             </div>
           </p>
         </header>
