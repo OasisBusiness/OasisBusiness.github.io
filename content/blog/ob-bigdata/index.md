@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning, AI"
 date: "2021-02-22T07:26:03.284Z"
-writeAuthor: semin
+writeAuthor: Taehyeon P.
 description: "Our own AI Model, made with machine learning"
 categories: [code]
 comments: true
@@ -49,7 +49,7 @@ featuredImage: ../assets/user.png
 
 ![GAIN](GAIN.PNG)
 
-_출처: GAIN: Missing Data Imputation using Generative Adversarial Nets_
+_이미지 출처: GAIN: Missing Data Imputation using Generative Adversarial Nets_
 
 
 ##학습

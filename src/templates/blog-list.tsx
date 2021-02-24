@@ -72,7 +72,7 @@ const BlogIndex = ({
                         alignItems: `center`,
                       }}
                     >
-              <small>{node.frontmatter.date} || </small> <small>{node.frontmatter.writeAuthor}</small>
+              <small>{node.frontmatter.date} || </small> &nbsp; <small>{node.frontmatter.writeAuthor}</small>
             </div>
             </header>
             <section>
