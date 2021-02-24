@@ -6,7 +6,7 @@ module.exports = {
       name: `@oasisbusiness`,
       summary: `web dev`,
     },
-    description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
+    description: `OASIS BUSINESS tech-blog`,
     siteUrl: `https://oasisbusiness.github.io`,
     social: {
       twitter: `oasisbusiness`,
@@ -83,5 +83,14 @@ module.exports = {
       `gatsby-plugin-offline`,
       "gatsby-plugin-dark-mode",
       `gatsby-plugin-postcss`,
+      `gatsby-plugin-sitemap`,
+      {
+          resolve: 'gatsby-plugin-robots-txt',
+          options: {
+              host: 'https://oasisbusiness.github.io',
+              sitemap: 'https://oasisbusiness.github.io/sitemap.xml',
+              policy: [{ userAgent: '*', allow: '/' }]
+          }
+      },
     ],
   }
