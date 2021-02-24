@@ -59,7 +59,7 @@ const BlogIndex = ({
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
-                  fontSize: '2.5rem',
+                  fontSize: '2rem',
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
