@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning, AI"
 date: "2021-02-22T07:26:03.284Z"
-writeAuthor: Taehyeon P.
+writeAuthor: Taehyun Park
 description: "Our own AI Model, made with machine learning"
 categories: [code]
 comments: true
