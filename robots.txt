@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://oasisbusiness.github.io/sitemap.xml
+Host: https://oasisbusiness.github.io
