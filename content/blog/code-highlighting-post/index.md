@@ -15,12 +15,16 @@ comments: true
 <!-- DNN
 wtih TensorFlow (텐서플로) -->
 
-model = tf.keras.Sequential([
-    tf.keras.layers.SimpleRNN(units=4, activation='tanh', return_sequences=True, input_shape=[4,1])
-])
-
-model.compile(optimizer='adam', loss='mse')
-model.summary()
+def build_model():
+    model = keras.Sequential([
+        layers.Dense(2048, activation='relu', input_shape=[len(train_dataset.keys())]),
+        layers.Dense(2048, activation='relu'),
+        layers.Dense(2048, activation='relu'),
+        layers.Dense(1)
+    ])
+    optimizer = tf.keras.optimizers.Adam(learning_rate=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-07, amsgrad=False, name='Adam')
+    model.compile(loss='mse',optimizer=optimizer,metrics=['mae', 'mse'])
+    return model
 ```
 
 ## 상권 분석
